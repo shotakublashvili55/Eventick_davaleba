@@ -5,15 +5,14 @@
 }
 
 :root {
-    --fontm: Proxima Nova;
-    }
-
+  --fontm: Proxima Nova;
+}
 
 body {
- 
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background-color:bisque;
+  /* background-color:bisque; */
   /* color: #ffff; */
 
   font-family: Proxima Nova;
@@ -25,117 +24,162 @@ body {
   /* background: url(<path-to-image>), lightgray 50% / cover no-repeat, #C4C4C4; */
 }
 .headline {
-    position: relative;
+  position: relative;
   width: 1440px;
   height: 720px;
 
   background: linear-gradient(119deg, #ed4690 -2.11%, #52c 63.58%);
 }
 
-
 .evtxt {
-    color: #FFF;
-font-family: Proxima Nova;
-font-size: 28.5px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+  color: #fff;
+  font-family: Proxima Nova;
+  font-size: 28.5px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 .ick {
-    color: #FFF;
-font-family: Proxima Nova;
-font-size: 28.5px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-family: Proxima Nova;
+  font-size: 28.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .navb {
-    color: #FFF;
-font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
-.navb >p {
-    cursor: pointer;
-
+.navb > p {
+  cursor: pointer;
 }
 .login {
-    color: #FFF;
-font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-display: flex;
-width: 101px;
-padding: 10px 20px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 50px;
-border: 1.5px solid #FFF;
-
-
-
-
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  width: 101px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: 1.5px solid #fff;
 }
-
-/* nav {
-     position: absolute;
-    top:1%;
-
-} */
 
 .people {
-    
-    width: 636.836px;
-height: 476px;
-flex-shrink: 0;
+  width: 636.836px;
+  height: 476px;
+  flex-shrink: 0;
 }
 
-.righttxt, .righttxt2 {
-    width: 443px;
+.righttxt,
+.righttxt2 {
+  width: 443px;
 }
-.righttxt >h3  {
-    color: #FFF;
-font-family: Proxima Nova;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.righttxt > h3 {
+  color: #fff;
+  font-family: Proxima Nova;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .righttxt2 {
-    color: #FFF;
-    font-family: Proxima Nova;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130%; /* 23.4px */
+  color: #fff;
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 23.4px */
 }
-.banerbtn >p {
-    width: 182px;
-    cursor: pointer;
-height: 60px;
-flex-shrink: 0;
-border-radius: 50px;
- border: 1.5px solid #FFF; 
-color:#FFF;
-box-shadow: 0px 10px 50px 0px rgba(61, 55, 241, 0.25);
-
+.banerbtn > p {
+  width: 182px;
+  cursor: pointer;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 1.5px solid #fff;
+  color: #fff;
+  box-shadow: 0px 10px 50px 0px rgba(61, 55, 241, 0.25);
 }
 .violet {
-    border: none !important;
-background-color: #F5167E;
+  border: none !important;
+  background-color: #f5167e;
 }
 
 .baner_and_content {
-    position: relative;
+  position: relative;
 }
 .overbaner {
-    position: absolute;
-    top:5%
+  position: absolute;
+  top: 5%;
+}
+
+.ellipse_cover {
+  color: #fff;
+  width: 1086px;
+  height: 140px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #242565;
+  box-shadow: 0px 10px 50px 0px rgba(61, 55, 241, 0.25);
+}
+
+.el_colu > p {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.el_colu > h3,
+.dateline {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bline {
+  width: 290px;
+  border-bottom: 1px solid #7778b0;
+}
+
+.ellipse {
+  position: absolute;
+  bottom: -70px;
+  /* 70 მივიღეთ 140/2 */
+}
+
+/* ბანერის დასასრული */
+
+.menubtn {
+  cursor: pointer;
+  width: 168px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #f2f4ff;
+}
+
+.bigtxt {
+  color: #242565;
+  font-family: Proxima Nova;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }

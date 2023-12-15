@@ -296,3 +296,123 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+
+/* 
+მეორე ნაწილი */
+
+.ownevent {
+  position: relative;
+  width: 1440px;
+  height: 252px;
+  flex-shrink: 0;
+  background-color: #eee1ff;
+}
+.oev_img {
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+}
+.oev_txtarea > p {
+  color: #272727;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 382px;
+}
+
+.oev_txtarea > h3 {
+  width: 417.174px;
+  /* height: 101px; */
+  flex-shrink: 0;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.oev_txtarea > button {
+  border-radius: 50px;
+  background: #f5167e;
+  box-shadow: 0px 10px 50px 0px rgba(61, 55, 241, 0.25);
+  width: 302px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.oev_txtarea {
+  position: absolute;
+  right: 151px;
+}
+
+.joinbrands > h2 {
+  color: #242565;
+  font-family: Proxima Nova;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.joinbrands > p {
+  color: #6a6a6a;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 613px;
+}
+
+/* .brands {
+  display: grid;
+  grid-template-rows: 0fr;
+  grid-template-columns: auto;
+} */
+
+/* .brands {
+  display: flex ;
+} */
+
+
+.brands >img {
+  height: 50px;
+}
+.blog >h6 {
+  color: #242565;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 30px */
+
+}
+.blog >p {
+  color: #000;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+
+}
+
+.blog > .lightxt >p {
+  color: #A5A5A5;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+
+}

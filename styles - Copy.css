@@ -6,7 +6,6 @@
 
 :root {
   --fontm: Proxima Nova;
-  --wd: 100vw;
 }
 
 body {
@@ -21,15 +20,12 @@ body {
 
 .headline > img {
   opacity: 0.2;
-  width: var(--wd);
-  height: 720px;
 
   /* background: url(<path-to-image>), lightgray 50% / cover no-repeat, #C4C4C4; */
 }
 .headline {
   position: relative;
-  /* width: 1440px; */
-
+  width: 1440px;
   height: 720px;
 
   background: linear-gradient(119deg, #ed4690 -2.11%, #52c 63.58%);
@@ -304,16 +300,12 @@ body {
 /* 
 მეორე ნაწილი */
 
-.ownarea {
-  background-color: #eee1ff;
-}
-
 .ownevent {
   position: relative;
-  /* width: var(--wd); */
   width: 1440px;
   height: 252px;
   flex-shrink: 0;
+  background-color: #eee1ff;
 }
 .oev_img {
   position: absolute;
@@ -392,130 +384,35 @@ body {
   display: flex ;
 } */
 
-.brands > img {
+
+.brands >img {
   height: 50px;
 }
-.blog > h6 {
+.blog >h6 {
   color: #242565;
-  font-family: DM Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 150%; /* 30px */
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 30px */
+
 }
-.blog > p {
+.blog >p {
   color: #000;
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%; /* 24px */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+
 }
 
-.blog > .lightxt > p {
-  color: #a5a5a5;
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%; /* 21px */
-}
-
-.footercolumn_a > p {
-  color: #f3f3f3;
-  font-family: Averta Demo PE Cutted Demo;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%; /* 22.4px */
-
-  width: 333px;
-}
-
-.footercolumn_b > p {
-  color: #f3f3f3;
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 200%; /* 28px */
-  width: 121px;
-}
-
-.footercolumn_b,
-.footercolumn_c > h6 {
-  color: #fff;
-  font-family: DM Sans;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: capitalize;
-}
-
-.footercolumn_c > p {
-  color: #f3f3f3;
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 200%; /* 28px */
-  width: 362px;
-}
-
-.posi > input {
-  border-radius: 45.595px;
-}
-.posi > button {
-  color: #fff;
-  font-family: DM Sans;
-  font-size: 12.159px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.79px;
-
-  border-radius: 50px;
-  background: #f5167e;
-  box-shadow: 0px 10px 50px 0px rgba(61, 55, 241, 0.25);
-  display: inline-flex;
-  padding: 15.198px 30.397px;
-  justify-content: center;
-  align-items: center;
-  gap: 7.599px;
-  width: fit-content;
-  font-weight: bold;
-}
-
-.posi {
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  width: 364px;
-  height: 60.793px;
-  flex-shrink: 0;
-  border-radius: 45.595px;
-  border: 2px solid #f1f1f1;
-  background: #fff;
-}
-
-.Copyright {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  width: 80vw;
-  border-top: 1px solid #4c4d8b;
-  align-items: center;
-padding-top: 30px;
-color: #FEFEFE;
-font-family: Averta Demo PE Cutted Demo;
+.blog > .lightxt >p {
+  color: #A5A5A5;
+font-family: DM Sans;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: 160%; /* 22.4px */
- 
+line-height: 150%; /* 21px */
+
 }
-
-
- 
-

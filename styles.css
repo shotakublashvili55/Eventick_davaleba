@@ -9,6 +9,10 @@
   --wd: 100vw;
 }
 
+img {
+  cursor: pointer;
+}
+
 body {
   display: flex;
   flex-direction: column;

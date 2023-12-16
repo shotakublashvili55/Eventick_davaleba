@@ -470,6 +470,7 @@ body {
 
 .posi > input {
   border-radius: 45.595px;
+   width: 364px; 
 }
 .posi > button {
   color: #fff;
@@ -490,13 +491,16 @@ body {
   gap: 7.599px;
   width: fit-content;
   font-weight: bold;
+  position: absolute;
+left: 55% ;
+top:10%
 }
 
 .posi {
   display: flex;
   justify-content: space-around;
   position: relative;
-  width: 364px;
+  /* width: 364px; */
   height: 60.793px;
   flex-shrink: 0;
   border-radius: 45.595px;

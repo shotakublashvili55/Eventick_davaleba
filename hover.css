@@ -1,0 +1,28 @@
+.gridelement,
+.brands > img,
+.blog,
+.login,
+.banerbtn > p,
+.loadmore,
+.oev_txtarea > button,
+.footercolumn_c > button .social > img {
+  transition: all 0.3s;
+}
+
+.gridelement:hover,
+.brands > img:hover,
+.social > img:hover {
+  transform: scale(1.1);
+}
+
+.login:hover,
+.banerbtn > p:hover,
+.loadmore:hover,
+.oev_txtarea > button:hover,
+.posi > button:hover {
+  background-color: black;
+  border: 1px solid black;
+}
+.loadmore:hover > p {
+  color: #fff;
+}
